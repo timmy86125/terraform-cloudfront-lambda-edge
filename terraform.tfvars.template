@@ -1,0 +1,13 @@
+#############################################
+# Configuration
+#############################################
+
+aws_profile = "your aws profile"
+aws_region  = "us-east-1"
+resource_tags = {
+  terraform = "true"
+  project   = "your project name"
+}
+cloudfront_distribution_info = {
+  origin_domain_name = "your origin domain name"
+}
